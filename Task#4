@@ -1,0 +1,30 @@
+1. Explain the difference between the = operator and the == operator in Python.
+	Ans:
+	#. = is a assignment operator. It assigns values from right side operands to the left side operand.
+	Example a = 5
+        	b = 5
+	#. == checks if the values of two operands are equal or not and returns "True" or "False" as the output.
+   	      In te below example we can see a and b have different values, so for the below the answr would be "False"
+	Example a = 5
+        	b = 3
+        	print(a == b)
+
+2. What does the ** operator do in Python, and how is it used?
+	Ans:
+	#. it calculates the first operand's power to the second operand, it is an exponent operator.
+	Example a = 5
+                b = 2
+                print (a**b) -------> This is noting but in maths a to the power b , so the answer will be 25.
+
+3. What does the ^ operator do in Python, and in what context is it commonly used?
+	Ans:
+	#. The ^ operator does a binary xor. a ^ b will return a value with only the bits set in a or in b but not both.
+	   So what is XOR ? It is a binary operation that takes two bit patterns of equal length and performs the logical exclusive OR operation on each pair of corresponding bits.
+	   The result in each position is 1 if only one of the bits is 1, but will be 0 if both are 0 or both are 1.
+	   it is commonly used in Encryption and Decryption, cryptography and generating parity bits for error checking and fault tolerance.
+	Example
+		A   B   C = A^B
+                0   0	0
+		0   1	1
+		1   0	1
+		1   1	0
